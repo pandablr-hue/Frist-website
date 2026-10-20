@@ -1,0 +1,34 @@
+Body{
+    background-color: black;
+}
+
+@font-face {
+  font-family: 'Hylia Serif Beta';
+  src: url('fonts/HyliaSerifBeta-Regular.woff2') format('woff2'),
+       url('fonts/HyliaSerifBeta-Regular.woff') format('woff'),
+       url('fonts/HyliaSerifBeta-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Helps with page performance */
+}
+
+h1{
+    color: blue;
+    font-family: 'Hylia Serif Beta';
+}
+h2{
+    color: white;
+    font-family: 'Hylia Serif Beta';
+}
+h4{
+    color: white;
+    font-family: 'times new roman';
+}
+h6{
+    color: white;
+    font-family: 'sans-serif';
+}
+p{
+    color: white;
+    font-family: 'sans-serif';
+}
